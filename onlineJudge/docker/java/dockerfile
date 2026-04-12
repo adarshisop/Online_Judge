@@ -1,0 +1,3 @@
+FROM eclipse-temurin:17-jdk-alpine
+WORKDIR /code
+CMD ["sh", "-c", "javac solution.java && java solution"]

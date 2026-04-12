@@ -1,0 +1,3 @@
+FROM gcc:latest
+WORKDIR /code
+CMD ["sh", "-c", "g++ solution.cpp -o solution && ./solution"]
